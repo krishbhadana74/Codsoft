@@ -1,8 +1,6 @@
-# Simple Calculator for Jupyter Notebook
 
-# Function to perform calculation
 def simple_calculator():
-    # Input from user
+   
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     
@@ -14,7 +12,7 @@ def simple_calculator():
     
     operation = input("Enter operation symbol: ")
     
-    # Calculation logic
+
     if operation == '+':
         result = num1 + num2
     elif operation == '-':
@@ -31,5 +29,5 @@ def simple_calculator():
     
     return f"Result: {num1} {operation} {num2} = {result}"
 
-# Run the calculator
+
 simple_calculator()
